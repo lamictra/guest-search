@@ -30,25 +30,16 @@
   <div id="result"></div>
 
   <script src="guests.js"></script>
-<script>
-  function searchName() {
-    const input = document.getElementById("nameInput").value
-      .trim()
-      .toLowerCase()
-      .replace(/\s+/g, '');
+  <script>
+    function searchName() {
+      const input = document.getElementById("nameInput").value
+        .trim()
+        .toLowerCase();
 
-    const result = guestList.find(g =>
-      g.name.toLowerCase().replace(/\s+/g, '') === input
-    );
+      const result = guestList.find(g =>
+        g.name.toLowerCase().includes(input)
+      );
 
-    const output = document.getElementById("result");
-    if (result) {
-      output.innerHTML = `<strong>${result.name}</strong><br>Seat: ${result.seat}`;
-    } else {
-      output.innerHTML = `Name not found. Please check spelling.`;
-    }
-  }
-</script>
-
-  </body>
-</html>
+      const output = document.getElementById("result");
+      if (result) {
+        output.innerHTML = `<stron
