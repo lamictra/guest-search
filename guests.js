@@ -19,7 +19,7 @@ const guestList = [
   { name: "Kaaydan", seat: "Table 2" },
   { name: "Premasire", seat: "Table 2" },
   { name: "Sabrina", seat: "Table 2" },
-  { name: "Lorraine", seat: "Table 2" }
+  { name: "Lorraine", seat: "Table 2" },
 
   { name: "Parovsh", seat: "Table 2" },
   { name: "Kemmishra", seat: "Table 2" },
