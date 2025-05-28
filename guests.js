@@ -8,7 +8,7 @@ const guestList = [
   { name: "Nicholas", seat: "Table 1" },
   { name: "Christy", seat: "Table 1" },
   { name: "Dewi", seat: "Table 1" },
-  { name: "Maureen", seat: "Table 1" },
+  { name: "Maureen", seat: "Table 1" }
 
   { name: "Selena David", seat: "Table 2" },
   { name: "Dolly", seat: "Table 2" },
@@ -19,7 +19,7 @@ const guestList = [
   { name: "Kaaydan", seat: "Table 2" },
   { name: "Premasire", seat: "Table 2" },
   { name: "Sabrina", seat: "Table 2" },
-  { name: "Lorraine", seat: "Table 2" },
+  { name: "Lorraine", seat: "Table 2" }
 
   { name: "Parovsh", seat: "Table 2" },
   { name: "Kemmishra", seat: "Table 2" },
