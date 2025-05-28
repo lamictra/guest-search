@@ -42,4 +42,11 @@
 
       const output = document.getElementById("result");
       if (result) {
-        output.innerHTML = `<stron
+        output.innerHTML = `<strong>${result.name}</strong><br>Seat: ${result.seat}`;
+      } else {
+        output.innerHTML = `Name not found. Please check spelling.`;
+      }
+    }
+  </script>
+</body>
+</html>
