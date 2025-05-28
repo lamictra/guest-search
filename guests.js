@@ -1,15 +1,14 @@
 const guestList = [
   { name: "Nemal", seat: "Table 1" },
-  { name: "Karen", seat: "Table 1" },
-  { name: "Keisha", seat: "Table 1" },
+  { name: "Karen De Silva", seat: "Table 1" },
+  { name: "Keisha Gellbert", seat: "Table 1" },
   { name: "Nikhil", seat: "Table 1" },
-  { name: "Gunadas", seat: "Table 1" },
+  { name: "Gunadesa", seat: "Table 1" },
   { name: "Shanti (SG)", seat: "Table 1" },
-  { name: "Nicholas", seat: "Table 1" },
-  { name: "Christy", seat: "Table 1" },
+  { name: "Nicholas Gunadesa", seat: "Table 1" },
+  { name: "Christy Gunadesa", seat: "Table 1" },
   { name: "Dewi", seat: "Table 1" },
   { name: "Maureen", seat: "Table 1" },
-
   { name: "Selena David", seat: "Table 2" },
   { name: "Dolly", seat: "Table 2" },
   { name: "Mark", seat: "Table 2" },
@@ -20,7 +19,6 @@ const guestList = [
   { name: "Premasire", seat: "Table 2" },
   { name: "Sabrina", seat: "Table 2" },
   { name: "Lorraine", seat: "Table 2" },
-
   { name: "Parovsh", seat: "Table 3" },
   { name: "Kemmishra", seat: "Table 3" },
   { name: "Nick", seat: "Table 3" },
@@ -31,7 +29,5 @@ const guestList = [
   { name: "Hwa Pui San (Panisha)", seat: "Table 3" },
   { name: "Hwa Pui Ling (Misha)", seat: "Table 3" },
   { name: "Lorraine", seat: "Table 3" }
-
-
 
 ];
